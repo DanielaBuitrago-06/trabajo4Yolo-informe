@@ -1,0 +1,23 @@
+title: "Detección y Seguimiento de Vehículos con YOLO y Flujo Óptico"
+description: "Proyecto final del curso Visión por Computador II – 3009228: Sistema de detección y seguimiento de vehículos utilizando YOLO v8 y flujo óptico Lucas-Kanade"
+lang: es
+remote_theme: just-the-docs/just-the-docs@v0.9.0
+color_scheme: light
+search_enabled: true
+
+include:
+  - index.md
+  - informe.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+url: "https://danielabuitrago-06.github.io"
+baseurl: "/trabajo4-informe.github.io"
