@@ -1,19 +1,19 @@
 ---
-title: "Visión por Computador  – Proyecto Final"
+title: "Visión por Computador – Proyecto Final"
 layout: default
 nav_order: 1
 ---
 
-# **Proyecto Final — Detección y Seguimiento de Vehículos con YOLO y Flujo Óptico**
+# Proyecto Final — Detección y Seguimiento de Vehículos con YOLO y Flujo Óptico
 
-**Curso:** Visión por Computador  – 3009228  
+**Curso:** Visión por Computador – 3009228  
 **Semestre:** 2025-02  
 **Facultad de Minas, Universidad Nacional de Colombia**  
 **Departamento de Ciencias de la Computación y de la Decisión**
 
 ---
 
-## **Descripción del proyecto**
+## Descripción del proyecto
 
 Este proyecto implementa un sistema completo de visión por computador que integra técnicas avanzadas de detección y seguimiento de objetos para resolver un problema práctico: **el conteo automático de vehículos en videos de tráfico**.
 
@@ -25,7 +25,7 @@ El proyecto está dividido en tres etapas principales:
 
 3. **Aplicación Práctica**: Implementación de un sistema de conteo automático de vehículos que cruzan una línea virtual en una intersección, similar a los sensores de lazo inductivo usados en semáforos reales.
 
-### **Características del Sistema**
+### Características del Sistema
 
 - **Detección en tiempo real**: YOLO v8 procesa frames a alta velocidad
 - **Seguimiento robusto**: Flujo óptico mantiene identidad entre frames
@@ -33,7 +33,7 @@ El proyecto está dividido en tres etapas principales:
 - **Visualización completa**: Bounding boxes, trayectorias, y contador en tiempo real
 - **Evaluación cuantitativa**: Métricas detalladas de rendimiento
 
-### **Dataset y Video de Prueba**
+### Dataset y Video de Prueba
 
 El sistema fue probado con un video de tráfico:
 - **Resolución**: 1920 × 1080 píxeles
@@ -43,13 +43,13 @@ El sistema fue probado con un video de tráfico:
 
 ---
 
-## **Acceso al informe completo**
+## Acceso al informe completo
 
-👉 [Ver Informe Final]({{ site.baseurl }}/informe.html)
+[Ver Informe Final]({{ site.baseurl }}/informe.html)
 
 ---
 
-## **Tecnologías y Herramientas**
+## Tecnologías y Herramientas
 
 - **Python 3.10+**
 - **OpenCV (cv2)**: Procesamiento de imágenes, video y algoritmos de visión por computador (flujo óptico)
@@ -58,7 +58,7 @@ El sistema fue probado con un video de tráfico:
 - **Matplotlib**: Visualización de datos, gráficas y frames procesados
 - **Jupyter Notebooks**: Análisis interactivo y desarrollo
 
-## **Resultados Principales**
+## Resultados Principales
 
 El sistema logra:
 - **4,274 detecciones** en 300 frames procesados
@@ -67,7 +67,7 @@ El sistema logra:
 - **4.33 FPS** de procesamiento (razonable para análisis)
 - **230.77 ms** promedio por frame
 
-### **Métricas de Rendimiento**
+### Métricas de Rendimiento
 
 | Métrica | Valor |
 |---------|-------|
@@ -79,8 +79,7 @@ El sistema logra:
 | FPS procesamiento | 4.33 |
 | Tiempo/frame | 230.77 ms |
 
-
-## **Visualizaciones Generadas**
+## Visualizaciones Generadas
 
 El sistema genera múltiples visualizaciones explicativas:
 
@@ -93,15 +92,15 @@ El sistema genera múltiples visualizaciones explicativas:
 
 Todas las visualizaciones se guardan automáticamente en la carpeta `results/` y se incluyen en el informe.
 
-## **Créditos**
+## Créditos
 
 **Desarrollado para:** Trabajo 4 - Detección y Seguimiento de Objetos  
-**Curso:** Visión por Computador  – 3009228  
+**Curso:** Visión por Computador – 3009228  
 **Universidad Nacional de Colombia – Facultad de Minas (2025-02)**
 
 ---
 
-## **Cómo usar el sistema**
+## Cómo usar el sistema
 
 1. **Instalar dependencias**:
    ```bash

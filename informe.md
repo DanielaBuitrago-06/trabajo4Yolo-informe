@@ -1,6 +1,12 @@
-# **Informe Final — Detección y Seguimiento de Vehículos con YOLO y Flujo Óptico**
+---
+title: "Informe Final — Detección y Seguimiento de Vehículos"
+layout: default
+nav_order: 2
+---
 
-**Curso:** Visión por Computador II – 3009228  
+# Informe Final — Detección y Seguimiento de Vehículos con YOLO y Flujo Óptico
+
+**Curso:** Visión por Computador – 3009228  
 **Semestre:** 2025-02  
 **Facultad de Minas, Universidad Nacional de Colombia**  
 **Departamento de Ciencias de la Computación y de la Decisión**
@@ -256,7 +262,7 @@ El sistema fue ejecutado sobre una muestra de 300 frames del video de prueba. Lo
 
 #### **4.2.1 Ejemplo de Detección YOLO**
 
-![Ejemplo de Detección YOLO]({{ site.baseurl }}/results/ejemplo_deteccion_yolo.png)
+![Ejemplo de Detección YOLO]({{ site.baseurl }}/{{ site.baseurl }}/results/ejemplo_deteccion_yolo.png)
 
 *Figura 1: Comparación entre frame original (izquierda) y frame con detecciones YOLO (derecha). Se observan múltiples vehículos detectados con sus bounding boxes y niveles de confianza.*
 
